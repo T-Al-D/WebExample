@@ -1,0 +1,18 @@
+html {
+	height: 100%;
+	font-size: 1rem;
+}
+
+body {
+	font-size: 1rem;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	background-color: rgb(184, 248, 192);
+}
+
+h1 {
+	color: rgb(4, 61, 61);
+}
+
+h2 {
+	color: rgb(48, 87, 75);
+}
