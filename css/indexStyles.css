@@ -1,18 +1,28 @@
-html {
-	height: 100%;
-	font-size: 1rem;
-}
-
+/* entire body */
 body {
-	font-size: 1rem;
 	font-family: Times, "Times New Roman", Georgia, serif;
-	background-color: rgb(184, 248, 192);
+	background-color: rgb(223, 245, 188);
 }
 
+/* heading selector */
 h1 {
 	color: rgb(4, 61, 61);
 }
 
 h2 {
 	color: rgb(48, 87, 75);
+}
+
+/* ID selector */
+#textDisplay {
+	color: rgb(90, 70, 3);
+}
+
+#end {
+	border: 3px solid rgb(13, 117, 18);
+}
+
+/* class selector */
+.linkedin {
+	color: rgba(90, 4, 79, 0.986);
 }
