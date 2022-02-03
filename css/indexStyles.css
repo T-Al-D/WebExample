@@ -1,28 +1,49 @@
-/* entire body */
 body {
-	font-family: Times, "Times New Roman", Georgia, serif;
-	background-color: rgb(223, 245, 188);
+    /* entire body */
+    font-family: Times, "Times New Roman", Georgia, serif;
+    background-color: rgb(212, 246, 255);
 }
 
-/* heading selector */
 h1 {
-	color: rgb(4, 61, 61);
+    /* heading selector */
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    height: 1.5em;
+    /* standard em = 16 px */
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    background: linear-gradient( 90deg, rgb(228, 215, 120), rgb(35, 173, 54), rgb(48, 5, 201));
 }
 
 h2 {
-	color: rgb(48, 87, 75);
+    color: rgb(6, 100, 27);
 }
 
-/* ID selector */
+.link {
+    /* class selector */
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: square;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(35, 12, 78);
+}
+
 #textDisplay {
-	color: rgb(90, 70, 3);
+    /* ID selector */
+    font-weight: bold;
+    color: rgb(64, 65, 4);
 }
 
 #end {
-	border: 3px solid rgb(13, 117, 18);
-}
-
-/* class selector */
-.linkedin {
-	color: rgba(90, 4, 79, 0.986);
+    padding: 0.5em;
+    margin: 0.3em;
+    border: 3px solid rgb(250, 0, 187);
+    border-radius: 10px;
+    width: 580px;
+    outline: 2px solid rgb(107, 7, 221);
+    outline-offset: 5px;
 }
