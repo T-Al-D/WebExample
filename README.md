@@ -7,4 +7,4 @@ The goal here is only to try out different desins and get in touch with HTML, CS
 
 Here is it as a webpage: https://t-al-d.github.io/WebExample/
 
-All picture provided here, are from me (not a website).
+All picture provided here, are from me (not a website) .
