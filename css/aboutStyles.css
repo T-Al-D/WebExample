@@ -1,38 +1,53 @@
 body {
-    font-family: "Dosis", sans-serif;
-    background-image: url(../img/flower_meadow.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	font-family: "Dosis", sans-serif;
+	background: linear-gradient(rgba(17, 78, 9, 0.507), rgb(84, 167, 6, 0.1)),
+		url(../img/flower_meadow.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 h1 {
-    color: rgb(204, 186, 253);
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: rgb(104, 22, 97);
+	color: rgb(204, 186, 253);
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: rgb(104, 22, 97);
 }
 
-.images {
-    margin: 10px;
-    outline: 3px solid rgb(9, 9, 143);
-    outline-offset: 5px;
+h2 {
+	color: rgb(255, 255, 255);
+}
+
+.flower_images {
+	margin: 10px;
+	outline: 3px solid rgb(9, 162, 223);
+	outline-offset: 5px;
+	display: inline-block;
+	cursor: help;
+}
+
+.insect_images {
+	margin: 10px;
+	outline: 3px solid rgb(9, 9, 143);
+	outline-offset: 5px;
+	background-color: rgb(223, 245, 188);
+	float: right; /* entire images-block is positioned at the right */
 }
 
 #sunflowerTwoBees {
-    background-color: rgb(223, 245, 188);
-    font-weight: bold;
-    width: 255px;
+	background-color: rgb(223, 245, 188);
+	font-weight: bold;
+	width: 255px;
 }
 
 #end2 {
-    background-color: rgb(223, 245, 188);
-    font-weight: bold;
-    padding: 0.5em;
-    margin: 0.3em;
-    border: 3px solid rgb(64, 75, 5);
-    border-radius: 10px;
-    width: 480px;
-    outline: 2px solid rgb(3, 49, 53);
-    outline-offset: 5px;
+	background-color: rgb(223, 245, 188);
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 0.3em;
+	border: 3px solid rgb(64, 75, 5);
+	border-radius: 10px;
+	width: 480px;
+	outline: 2px solid rgb(3, 49, 53);
+	outline-offset: 5px;
 }
