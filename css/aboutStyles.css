@@ -1,7 +1,12 @@
+/* global variables*/
+:root {
+	--backgroundColor: rgb(223, 245, 188);
+}
+
 body {
 	font-family: "Dosis", sans-serif;
 	background: linear-gradient(rgba(17, 78, 9, 0.507), rgb(84, 167, 6, 0.1)),
-		url(../img/flower_meadow.JPG);
+		url(../img/about/flower_meadow.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -18,11 +23,16 @@ h2 {
 	color: rgb(255, 255, 255);
 }
 
+figure {
+	box-shadow: 2px 3px 4px rgb(6, 226, 189);
+}
+
 .flower_images {
 	margin: 10px;
 	outline: 3px solid rgb(9, 162, 223);
 	outline-offset: 5px;
 	display: inline-block;
+	position: relative;
 	cursor: help;
 }
 
@@ -30,18 +40,23 @@ h2 {
 	margin: 10px;
 	outline: 3px solid rgb(9, 9, 143);
 	outline-offset: 5px;
-	background-color: rgb(223, 245, 188);
+	background-color: var(--backgroundColor);
 	float: right; /* entire images-block is positioned at the right */
 }
 
+#swallowtail {
+	transition: all 3s linear;
+	animation: swallowtailFlight 5s infinite;
+}
+
 #sunflowerTwoBees {
-	background-color: rgb(223, 245, 188);
+	background-color: var(--backgroundColor);
 	font-weight: bold;
 	width: 255px;
 }
 
 #end2 {
-	background-color: rgb(223, 245, 188);
+	background-color: var(--backgroundColor);
 	font-weight: bold;
 	padding: 0.5em;
 	margin: 0.3em;
@@ -50,4 +65,18 @@ h2 {
 	width: 480px;
 	outline: 2px solid rgb(3, 49, 53);
 	outline-offset: 5px;
+}
+
+/* at 1/4 it goes down, at 1/2 it´s going diagonal, at the end it returns */
+@keyframes swallowtailFlight {
+	25% {
+		transform: translateY(20px);
+	}
+	50% {
+		transform: translateX(-20px);
+	}
+	100% {
+		transform: translateX(0px);
+		transform: translateY(0px);
+	}
 }

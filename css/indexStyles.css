@@ -45,11 +45,12 @@ ul li {
 #waiting::first-letter {
 	font-size: 1.5em;
 	font-weight: bold;
-	color: rgb(146, 29, 255);
+	color: rgba(90, 77, 5, 0.863);
 }
 
 #waiting:hover {
 	font-weight: bolder;
+	text-shadow: 1px 1px 2px rgb(127, 136, 7);
 	color: rgb(134, 83, 5);
 }
 
