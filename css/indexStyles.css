@@ -24,9 +24,12 @@ h2 {
 	color: rgb(6, 100, 27);
 }
 
-/* class selector */
-.link {
-	cursor: pointer;
+div {
+	padding: 0.5em;
+	margin: 0.3em;
+	border: 3px solid rgb(1, 16, 228);
+	display: inline-block;
+	vertical-align: top;
 }
 
 ul li {
@@ -34,6 +37,11 @@ ul li {
 	font-weight: bold;
 	font-size: 1.2em;
 	color: rgb(35, 12, 78);
+}
+
+/* class selector */
+.link {
+	cursor: pointer;
 }
 
 /* ID selector */

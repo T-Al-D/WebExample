@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/indexStyles.css" />
+    <link rel="icon" href="img/index/Icon.ico">
     <title>T-Al-D/index</title>
 </head>
 
@@ -21,11 +22,22 @@
             I hope to fill this site with something interesting. But first,
             I have to learn more! (hover over it...)
         </p>
-        <div> <!--  Block for INPUT -->
-            <input type="text" id="textInput"></input>
+        <div> <!--  Block for input text -->
+            <input id="textInput" type="text"></input>
             <button id="textInputButton" name="displayButton">Display text!</button>
             <p id="textDisplay">Display Text!</p>
         </div>
+        <div> <!-- Block for conversion -->
+            <input id="numberInput" type="number"></input>
+            <button id="numberButton" name="numberButton">Result is ...</button>
+            <br>
+            <input id="internetSpeed" name="conversion" type="radio">
+            <strong>internet-speed: </strong> Megabits/s &rarr; Megabytes/s</input><br>
+            <input id="storageSize" name="conversion" type="radio">
+            <strong>storage:</strong> "claimed" Gigabyte &rarr; "real" Gigabyte</input><br>
+            <p id="resultDisplay">RESULT: </p>
+        </div>
+        <br>
         <p id="end">
             You can visit the about page here:
             <a class="link" href="about.html"> <strong>ABOUT</strong></a>
